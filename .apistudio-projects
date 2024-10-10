@@ -1,0 +1,20 @@
+projects:
+  ProjectA:
+    description: ''
+    tags:
+      - projA
+  ProjectB:
+    description: ''
+    tags:
+      - projB
+  ProjectC:
+    description: ''
+    tags:
+      - projC
+  ProjectD:
+    description: ''
+    tags:
+      - projD
+
+
+
