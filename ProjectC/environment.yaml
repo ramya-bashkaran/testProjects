@@ -1,0 +1,12 @@
+kind: Environment
+metadata:
+  name: TestPaymentsEnvironment
+  version: 1.0
+  tags:
+    - payEnv
+  namespace: dev
+spec:
+  variables:
+    - key: "X-Gateway-APIKey"
+      value: "${X-Gateway-APIKey}" 
+      isSecret: true

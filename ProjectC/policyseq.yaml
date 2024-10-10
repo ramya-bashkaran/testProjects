@@ -1,0 +1,13 @@
+kind: PolicySeq
+apiVersion: api.webmethods.io/v1
+metadata:
+  name: dev_policies
+  version: 1.0
+  namespace: dev
+  tags:
+    - dev_policies
+spec:
+  transport:
+    - $ref: dev:enable_https1:1.0
+  routing:
+    - $ref: dev:my-default-routing1:1.0

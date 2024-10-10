@@ -1,0 +1,21 @@
+#
+# Copyright Super iPaaS Integration LLC, an IBM Company 2024
+#
+kind: PolicySeq
+apiVersion: api.webmethods.io/v1
+metadata:
+  name: dev_policies
+  version: 1.0
+  namespace: dev
+  tags:
+    - dev_policies
+spec:
+  transport:
+    - $ref: dev:enable_https:1.0
+  iam:
+  monitoring:
+  routing:
+    - $ref: dev:my-default-routing:1.0
+  req-processing:
+  res-processing:
+  error-handling:

@@ -1,0 +1,21 @@
+#
+# Copyright Super iPaaS Integration LLC, an IBM Company 2024
+#
+kind: Endpoint
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: endpoint_sample
+  version: 1.0
+  namespace: dev
+spec:
+  url: http://sample.com
+  method: GET
+  connectTimeout: 300
+  readTimeout: 200
+  sslConfig:
+    keyStoreAlias: ""
+    keyAlias: ""
+    trustStoreAlias: ""
+  serviceRegistryParameters:
+    - name: ""
+      value: ""

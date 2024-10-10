@@ -1,0 +1,13 @@
+#
+# Copyright Super iPaaS Integration LLC, an IBM Company 2024
+#
+kind: Transport
+apiVersion: api.webmethods.io/v1
+metadata:
+  name: enable_https
+  namespace: dev
+  version: 1.0
+spec: 
+    protocol: 
+      - http
+      - https

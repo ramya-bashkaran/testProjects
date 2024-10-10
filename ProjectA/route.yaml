@@ -1,0 +1,16 @@
+#
+# Copyright Super iPaaS Integration LLC, an IBM Company 2024
+#
+kind: Route
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: my-default-routing
+  version: 1.0
+  namespace: dev
+  tags:
+    - routing
+    - route
+    - policy
+spec:
+  default-endpoint:
+    $ref: dev:default_endpoint:1.0

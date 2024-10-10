@@ -1,0 +1,36 @@
+kind: Assertion
+metadata:
+  name: TestPaymentAssertion
+  version: 1.0
+  tags:
+    - payEnv
+  namespace: dev
+spec:
+  - name: "Validate the response status"
+    key: "status"
+    value: "Not Found"
+    action: "notEquals" 
+  - name: "Validate the header content type- value"
+    key: "header().Content-Type"
+    value: "application/json"
+    action: "equals" 
+  - name: "Validate the header content type"
+    key: "header()"
+    value: "Content-Type"
+    action: "haveProperty"
+  - name: "Less Than the response Time"
+    key: "responseTime"
+    value: 2000000
+    action: "lessThan"
+  - name: "Greater Than the response Time"
+    key: "responseTime"
+    value: 20
+    action: "greaterThan"
+  - name: "Validate to have property to have id"
+    key: "json()"
+    value: "id"
+    action: "haveProperty"
+  - name: "Validate to not have property to have id"
+    key: "json()"
+    value: "id"
+    action: "notHaveProperty"

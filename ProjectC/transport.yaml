@@ -1,0 +1,10 @@
+kind: Transport
+apiVersion: api.webmethods.io/v1
+metadata:
+  name: enable_https1
+  namespace: dev
+  version: 1.0
+spec: 
+    protocol: 
+      - http
+      - https

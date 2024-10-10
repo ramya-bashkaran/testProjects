@@ -1,0 +1,13 @@
+kind: Route
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: my-default-routing1
+  version: 1.0
+  namespace: dev
+  tags:
+    - routing
+    - route
+    - policy
+spec:
+  default-endpoint:
+    $ref: dev:default_endpoint1:1.0
