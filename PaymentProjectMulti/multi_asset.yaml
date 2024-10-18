@@ -13,11 +13,11 @@ spec:
   mocked: true
   api-spec:
     $path: swagger.json
-  policy-seq:
+  policy-sequence:
     - $ref: dev:dev_policies:1.0
 
 ---
-kind: Endpoint
+kind: HTTPEndpoint
 apiVersion: api.webmethods.io/beta
 metadata:
   name: default_endpoint1
@@ -37,7 +37,7 @@ spec:
       value: ''
 
 ---
-kind: PolicySeq
+kind: PolicySequence
 apiVersion: api.webmethods.io/v1
 metadata:
   name: dev_policies

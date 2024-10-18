@@ -15,5 +15,5 @@ metadata:
 spec:
   api-spec: 
     $path: swagger_petstore.yaml
-  policy-seq: 
+  policy-sequence: 
     - $ref: policies:my_policies:1.0

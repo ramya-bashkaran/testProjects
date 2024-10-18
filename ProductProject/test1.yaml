@@ -1,0 +1,51 @@
+kind: test
+metadata:
+  name: TestProduct1
+  version: 1.0.1
+  tags:
+    - functional
+  namespace: dev
+spec:
+  api:
+    $ref: dev:ProductAPI:1.0
+  environment:
+   $ref: dev:TestProductEnvironment:1.0
+  request:
+    - method: ${method}
+      resource: v2/pet
+      headers:
+        - key: Content-Type
+          value: ${content-type}
+      auth:
+        noauth: true
+      payload:
+        raw:
+         json: |
+          {
+            "id": 0,
+            "category": {
+              "id": 0,
+              "name": "${dogname}"
+            },
+            "name": "doggie",
+            "photoUrls": [
+              "string"
+            ],
+            "tags": [
+              {
+                "id": 0,
+                "name": "string"
+              }
+            ],
+            "status": "available"
+          }
+      settings:
+        sslVerification: false
+        encodeURL: true
+      assertions:
+            $ref: dev:TestProductAssertion:1.0
+            expressions:
+              - name: "Validate the response code"
+                key: "code"
+                value: 200
+                action: "equals"

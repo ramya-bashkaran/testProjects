@@ -1,20 +1,20 @@
 projects:
-  ProjectA:
+  PaymentProject:
     description: ''
     tags:
-      - projA
-  ProjectB:
+      - payment
+  PoliciesProject:
     description: ''
     tags:
-      - projB
-  ProjectC:
+      - policies
+  ProductProject:
     description: ''
     tags:
-      - projC
-  ProjectD:
+      - product
+  PaymentProjectMulti:
     description: ''
     tags:
-      - projD
+      - paymentmulti
 
 
 

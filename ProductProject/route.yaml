@@ -12,9 +12,5 @@ metadata:
     - route
     - policy
 spec:
-  loadbalance-endpoints:
-    - $ref: dev:default_endpoint:1.0
-      suspend-on-duration: 40s
-    - $ref:  dev:endpoint_sample:1.0
-      suspend-on-duration: 40s
-
+  default-endpoint:
+    $ref: dev:default_endpoint:beta

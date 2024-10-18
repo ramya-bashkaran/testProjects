@@ -1,4 +1,4 @@
-kind: PolicySeq
+kind: PolicySequence
 apiVersion: api.webmethods.io/v1
 metadata:
   name: dev_policies

@@ -1,7 +1,7 @@
 kind: api
 apiVersion: api.webmethods.io/v1
 metadata:
-  name: PaymentAPI
+  name: ProductAPI
   namespace: dev
   version: 1.0
   tags:
@@ -12,6 +12,6 @@ metadata:
 spec:
   mocked: true
   api-spec:
-    $path: petstore.yaml
-  policy-seq:
+    $path: product.yaml
+  policy-sequence:
     - $ref: dev:dev_policies:1.0

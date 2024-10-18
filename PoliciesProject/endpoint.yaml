@@ -1,7 +1,10 @@
-kind: Endpoint
+#
+# Copyright Super iPaaS Integration LLC, an IBM Company 2024
+#
+kind: HTTPEndpoint
 apiVersion: api.webmethods.io/beta
 metadata:
-  name: default_endpoint1
+  name: default_endpoint
   version: 1.0
   namespace: dev
 spec:
