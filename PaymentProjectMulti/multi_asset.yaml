@@ -3,7 +3,7 @@ kind: api
 apiVersion: api.webmethods.io/v1
 metadata:
   name: PaymentAPI
-  namespace: dev
+  namespace: sample1
   version: '1.0'
   tags:
     - swagger
