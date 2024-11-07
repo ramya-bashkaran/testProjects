@@ -1,9 +1,9 @@
 projects:
-  ProjectA-M:
+  ProjectAM:
     description: contains api and its dependency
     tags: []
     lastUpdated: 1725342269824
-  ProjectB-M:
+  ProjectBM:
     description: contains api and its dependency
     tags: []
     lastUpdated: 17253428589824
