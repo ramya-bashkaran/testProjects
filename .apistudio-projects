@@ -2,7 +2,7 @@ projects:
     ProjectA-B1:
     description: ''
     tags:
-      - payment
+      - bgt
     ProjectB-B1:
     description: ''
     tags:
