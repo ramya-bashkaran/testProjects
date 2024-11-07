@@ -1,9 +1,13 @@
 projects:
-    ProjectA-M:
+    ProjectA-B1:
     description: ''
     tags:
       - payment
-    ProjectB-M:
+    ProjectB-B1:
+    description: ''
+    tags:
+      - policies
+    ProjectC-B1:
     description: ''
     tags:
       - policies

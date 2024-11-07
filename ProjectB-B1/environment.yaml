@@ -1,6 +1,6 @@
 kind: Environment
 metadata:
-  name: TestPaymentsEnvironment
+  name: TestProductEnvironment
   version: 1.0
   tags:
     - payEnv
@@ -8,5 +8,5 @@ metadata:
 spec:
   variables:
     - key: "X-Gateway-APIKey"
-      value: "${X-Gateway-APIKey}" 
+      value: "${X-Gateway-APIKey}"
       isSecret: true

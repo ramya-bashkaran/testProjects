@@ -1,0 +1,53 @@
+kind: test
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: TestPayments1
+  version: 1.1
+  tags:
+    - functional
+    - gateway
+  namespace: dev1
+spec:
+  api:
+    $ref: dev:PaymentAPI:1.0
+  environment:
+    $ref: dev:TestPaymentsEnvironment:1.0
+  request:
+    - method: DELETE
+      resource: v2/pet/testttt?
+      headers:
+        - key: Content-Type
+          value: ${content-type}
+      auth:
+        noauth: true
+      payload:
+        raw:
+          json: |
+            {
+              "id": 0,
+              "category": {
+                "id": 0,
+                "name": "${dogname}"
+              },
+              "name": "doggie",
+              "photoUrls": [
+                "string"
+              ],
+              "tags": [
+                {
+                  "id": 0,
+                  "name": "string"
+                }
+              ],
+              "status": "available"
+            }
+      settings:
+        sslVerification: false
+        encodeURL: true
+      assertions:
+        $ref: dev:TestPaymentAssertion:1.0
+        expressions:
+          - name: "Validate the response code"
+            key: "code"
+            value: 200
+            action: "equals"

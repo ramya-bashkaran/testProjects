@@ -6,7 +6,7 @@ metadata:
   namespace: dev
   tags:
     - dev_policies
-spec:
+spec: 
   transport:
     - $ref: dev:enable_https1:1.0
   routing:
