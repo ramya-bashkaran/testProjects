@@ -1,13 +1,10 @@
 projects:
-    ProjectA-M:
-    description: ''
-    tags:
-      - payment
-    ProjectB-M:
-    description: ''
-    tags:
-      - policies
-
-
-
-
+  ProjectAM:
+    description: contains api and its dependency
+    tags: []
+    lastUpdated: 1725342269824
+  ProjectBM:
+    description: contains api and its dependency
+    tags: []
+    lastUpdated: 17253428589824
+  
