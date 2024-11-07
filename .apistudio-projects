@@ -7,18 +7,7 @@ projects:
     description: ''
     tags:
       - policies
-    ProjectA-B1:
-    description: ''
-    tags:
-      - bgt
-    ProjectB-B1:
-    description: ''
-    tags:
-      - qwerty
-    ProjectC-B1:
-    description: ''
-    tags:
-      - asdfg
+
 
 
 
