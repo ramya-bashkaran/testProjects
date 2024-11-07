@@ -6,11 +6,11 @@ projects:
     ProjectB-B1:
     description: ''
     tags:
-      - policies
+      - qwerty
     ProjectC-B1:
     description: ''
     tags:
-      - policies
+      - asdfg
 
 
 
