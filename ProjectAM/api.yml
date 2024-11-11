@@ -1,7 +1,7 @@
 kind: api
 apiVersion: api.webmethods.io/v1
 metadata:
-  name: PaymentAPI
+  name: FromMain
   namespace: dev
   version: 1.0
   tags:
