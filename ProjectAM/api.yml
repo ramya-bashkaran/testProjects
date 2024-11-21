@@ -14,4 +14,4 @@ spec:
   api-spec:
     $path: petstore.yaml
   policy-sequence:
-    - $ref: dev:dev_policies:1.0
+    - $ref: dev:dev_policiess:1.0

@@ -1,7 +1,7 @@
 kind: PolicySequence
 apiVersion: api.webmethods.io/v1
 metadata:
-  name: dev_policies
+  name: dev_policiess
   version: 1.0
   namespace: dev
   tags:
