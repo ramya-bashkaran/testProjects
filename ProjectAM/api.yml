@@ -1,4 +1,4 @@
-kind: api
+kind: test
 apiVersion: api.webmethods.io/v1
 metadata:
   name: PaymentAPI
