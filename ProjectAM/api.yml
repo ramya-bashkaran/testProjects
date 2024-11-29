@@ -1,5 +1,5 @@
 kind: api
-apiVersion: api.webmethods.io/v1
+hsvh: api.webmethods.io/v1
 metadata:
   name: FromMain
   namespace: dev
