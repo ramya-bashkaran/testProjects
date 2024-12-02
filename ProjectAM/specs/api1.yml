@@ -1,0 +1,17 @@
+kind: api
+apiVersion: api.webmethods.io/v1
+metadata:
+  name: ProductAPI10
+  namespace: dev
+  version: 1.0
+  tags:
+    - swagger
+    - daso
+    - sample
+  type: REST
+spec:
+  mocked: true
+  api-spec:
+    $path: specs/product.yaml
+  policy-sequence:
+    - $ref: dev:dev_policies:1.1
