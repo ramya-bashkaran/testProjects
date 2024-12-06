@@ -2,7 +2,7 @@ kind: api
 hsvh: api.webmethods.io/v1
 metadata:
   name: FromMain
-  namespace: dev
+  namespace: dev12
   version: 1.0
   tags:
     - swagger
