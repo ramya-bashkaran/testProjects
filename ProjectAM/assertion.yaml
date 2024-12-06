@@ -1,7 +1,7 @@
 kind: Assertion
 metadata:
   name: TestPaymentAssertion
-  version: 1.0
+  version: 1.2
   tags:
     - payEnv
   namespace: dev
